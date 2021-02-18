@@ -1,0 +1,81 @@
+ *{ 
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+        width:20%;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 30%;
+}
+.navbar{
+display: flex;
+
+}
+.nav-list{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(67, 81, 207); 
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 30px 60px ;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: gray;
+}
+.book-img img{
+    padding: 20px 20px;
+width: 25%;
+height: 30%;
+margin: 10px;
+} 
+
+.f{
+    
+width: 100%;
+height: 100px;
+color:white;
+background-color:rgb(42, 42, 48);
+
+}
+
+.main-content{
+    display: flex;
+}
+.main-content .box{
+    flex-basis: 80%;
+}
+
+.background{
+    background:rgba(0,0,0, 0.7) url('../img/nature.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.b{
+    background-image: url('../background.jpg');
+   
+}
+
+footer{
+    width: 100vw;
+    background-color:rgb(30, 30, 37);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
